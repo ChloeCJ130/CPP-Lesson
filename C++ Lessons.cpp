@@ -4,14 +4,20 @@
 #include <iostream>
 using namespace std;
 
-int num;
+int num1;
+int num2;
+int sum;
 
 int main()
 {
     cout << "Enter a number: ";
-    cin >> num;
-    cout << "Your Number is " << num << " !";
-
+    cin >> num1;
+    cout << "Your 1st Number is " << num1<< " !" << endl;
+    cout << "Enter a number: ";
+    cin >> num2;
+    cout << "Your 2nd Number is " << num2 << " !" << endl;
+    sum = num1 + num2;
+    cout << "Together they are " << sum << " !" << endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
